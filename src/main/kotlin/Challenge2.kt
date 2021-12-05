@@ -4,7 +4,7 @@ data class Movement(var direction: String, var distance: Int)
 data class Position(var x: Int, var y: Int, var aim: Int)
 
 fun main() {
-    println("Challenge 2")
+    println("aoc021 Challenge 2\n")
 
     val position = Position(0, 0, 0)
     File("src/main/resources/input2.txt").forEachLine {
