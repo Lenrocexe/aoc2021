@@ -10,7 +10,7 @@ fun main() {
     var previousWindow: Int? = null
 
     val measurements = mutableListOf<Int>()
-    File("src/main/resources/Input1.txt").forEachLine { measurements.add(it.toInt()) }
+    File("src/main/resources/input1.txt").forEachLine { measurements.add(it.toInt()) }
 
     for (index in measurements.indices) {
         if (index + 3 > measurements.size) break
